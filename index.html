@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+            <a href="/">Jimmy Logan</a>
+        </div>
+        <div class="right">
+            <a href="mailto:jimmylogan789@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Jimmy</h2>
+                <p>I'm a college gradute from Kennesaw State University, with a bachelor's degree in Computer Software Engineering. I am looking for an internship or entry-level job in which I can apply my skills in software engineering and quality assurance.</p>
+
+                <div class = "links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#project">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Project</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot"></div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I specialize in several coding languages, with C#, Java, and SQL being used during my academic studies, and Python being the one I've taught myself how to use.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/Csharp_Logo.png" alt="C# Logo">
+                    <span>C#</span>
+                </div>
+                <div class="cell">
+                    <img src="images/Java_programming_language_logo.svg.png" alt="Java Logo">
+                    <span>Java</span>
+                </div>
+                <div class="cell">
+                    <img src="images/Python-logo-notext.svg.png" alt="Python Logo">
+                    <span>Python</span>
+                </div>
+                <div class="cell">
+                    <img src="images/HTML5_Badge_512.png" alt="HTML Logo">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="images/CSS3_logo.svg.png" alt="CSS Logo">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="images/Sql_data_base_with_logo.svg.png" alt="SQL Logo">
+                    <span>SQL</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Projects -->
+        <section id="project" class="project-section">
+            <h2>Projects</h2>
+            <div class="group">
+            <div class="card">
+                <img
+                src="images\blockRally_screenshot.png" alt="Block Rally" loading="'lazy"/>
+                <h3>Block Rally</h3>
+                <p>A minimalistic game where the block gradually gets faster when it's hit. Made with the pygame library.</p>
+                <a class="hyperlink" href="https://github.com/Sub4Box42/Block-Rally" target="_blank">Link Here</a>
+            </div>
+            <div class="card">
+                <img
+                src="images\electionData_screenshot.png" alt="Data Analyzer" loading="'lazy"/>
+                <h3>Data Analyzer</h3>
+                <p>Python code to output graphs of data, with code to build csv files to analyze data. Built with the matplotlib library.</p>
+                <a class="hyperlink" href="https://github.com/Sub4Box42/Data-Visualizer" target="_blank">Link Here</a>
+            </div>
+            <div class="card">
+                <img
+                src="images\todoList_screenshot.png" alt="To-Do List" loading="'lazy"/>
+                <h3>To-Do List</h3>
+                <p>Simple to-do list program built with tkinter GUI library.</p>
+                <a class="hyperlink" href="https://github.com/Sub4Box42/To-Do-List" target="_blank">Link Here</a>
+            </div>
+            
+            </div>
+        </section>
+    </main>
+</body>
+</html>
